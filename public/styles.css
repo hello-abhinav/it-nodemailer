@@ -1,0 +1,98 @@
+* {
+    /* Default CSS on all Elements */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;  
+    font-family: sans-serif; 
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:rgb(151, 0, 0);
+    
+}
+.navbar .container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    color:rgb(253, 253, 82);
+    list-style:none;
+    font-size: 2em;
+}
+
+main{
+    background-color:rgb(253, 253, 82);
+    font-size: 25px;
+}
+
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+h1,
+h2,h3{
+    color: rgb(117, 17, 17);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+
+.about,
+.features,
+.admission{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.aboutUs,
+.thrust,
+.be{
+    width: 50%;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: lightsalmon;
+}
+
+.vision,
+.faculty,
+.me{
+    width: 50%;
+    background-color: rgb(143, 140, 140);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.placement{
+    background-color:rgb(143, 140,140);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact{
+    background-color: lightsalmon;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.details{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    list-style: none;
+}
+.details a{
+    text-decoration: none;
+    color: rgb(151, 0, 0);
+}
+
+
+footer{
+    background-color: rgb(151, 0, 0);
+}
